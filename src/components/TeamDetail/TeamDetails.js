@@ -28,7 +28,7 @@ const TeamDetails = () => {
     }
 
     const logoStyle = {
-        maxWidth: '150px', opacity: '0.8'
+        maxWidth: '150px', opacity: '0.6', backgroundColor: 'white'
     }
 
     const introStyle = {
@@ -40,7 +40,7 @@ const TeamDetails = () => {
     }
     return (
         <div className="container pt-3">
-            <div style={{ backgroundImage: `url(${strTeamBanner})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', marginBottom:'100px' }} className="text-center">
+            <div style={{ backgroundImage: `url(${strTeamBanner})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize:'cover', marginBottom:'100px' }} className="text-center p-3">
                 <img style={logoStyle} src={strTeamBadge} alt="not found"></img>
             </div>
             <div style={introStyle} className="row align-items-center px-2 d-flex d-flex py-3 m-1" >

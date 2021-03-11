@@ -4,14 +4,17 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     
     const headerStyle = {
-        paddingTop: '100px',
+        backgroundImage: `url(https://cdn.ttgtmedia.com/visuals/ComputerWeekly/Hero%20Images/sport-football-1-adobe.jpeg)`, 
+        backgroundPosition: 'center', backgroundSize:'80%',
+        height:'200px',
+        paddingTop: '80px',
         paddingBottom: '100px'
     }
 
     const navStyle = { 
-        backgroundColor: 'black', 
+        backgroundColor:'black',
         padding: '5px', 
-        color: 'white', 
+        color: 'black', 
         opacity: '0.6', 
         fontWeight: 'bold' }
 

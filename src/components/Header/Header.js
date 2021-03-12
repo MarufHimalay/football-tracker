@@ -23,7 +23,7 @@ const Header = () => {
 
     const linkStyle = { textDecoration: 'none', color: 'white' }
 
-    const [search, setSearch] =useState('@@');
+    const [search, setSearch] =useState('');
     const [player, setPlayer] = useState([]);
     const handleChange = (event) => {
         setSearch(event.target.value);

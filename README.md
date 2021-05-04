@@ -1,18 +1,19 @@
-#Football-Tracker
+# Football-Tracker
 
-This is a web app built with a JavaScript Library named as React.
-Data is collected from thesportsdb.com/api.php
+This is a single page web app to show football team. You can see detail info of the teams by clicking on any particular team. I used thesportsdb api to load and search team info.
 
-##Components
-.Header
-.Teams
-.Team
-.TeamDetails
+[Live Preview](https://team-tracker-react.netlify.app/)
 
-##Functionalities
+## Components
+* Header
+* Teams
+* Team
+* TeamDetails
+
+## Functionalities
 
 > Homepage shows 20 teams
 > Each team has title, photo, sports type, and a button for detail info
->for detail info webpage will directed to /team/:id link which is made with dynamic route
+> for detail info webpage will directed to /team/:id link which is made with dynamic route
 
 
